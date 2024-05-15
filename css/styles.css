@@ -164,13 +164,16 @@ header li {
   background-position: center;
 }
 
+.section.hero {
+  padding: 188px 0;
+}
+
 .hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 48px;
-  padding: 188px 0;
 }
 
 .hero h1 {
@@ -188,8 +191,11 @@ header li {
   color: var(--white);
 }
 
-.advantages {
+.section.advantages {
   margin: 100px 0;
+}
+
+.advantages-list {
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -213,14 +219,17 @@ header li {
 .title {
   text-align: center;
   margin: 0 auto;
-  padding: 100px;
+  margin-bottom: 100px;
 }
 
 .doing {
+  padding-bottom: 120px;
+}
+
+.doing-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 100px;
   padding: 0;
 }
 
